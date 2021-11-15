@@ -1,0 +1,31 @@
+version: "3.7"
+services:
+  db:
+    container_name: "PostgresDb"
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_DB: postgres
+      POSTGRES_USER: Supervisor
+      POSTGRES_PASSWORD: Supervisor
+      PGDATA: /var/lib/postgresql/data
+    volumes:
+    - /c/DockerCompose/Volumes/PostgreSQL:/var/lib/postgresql/data
+    - /c/DockerCompose/Volumes/DbImages:/usr/local/db
+    ports:
+    - "5432:5432"
+  
+  pgadmin:
+    container_name: "pgAdmin"
+    image: dpage/pgadmin4
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: k.krylov@creatio.com
+      PGADMIN_DEFAULT_PASSWORD: Supervisor
+      PGADMIN_LISTEN_PORT: 80
+    ports:
+    - "9080:80"
+    volumes:
+    - /c/DockerCompose/Volumes/PgAdmin:/var/lib/pgadmin
+    links:
+    - "db:pgsql-server"

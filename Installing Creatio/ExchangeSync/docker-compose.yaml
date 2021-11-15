@@ -1,0 +1,33 @@
+version: "3.9"
+services:
+  ExchangeListener:
+    image: bpmonline/exchangelistener:0.8.68
+    restart: unless-stopped
+    ports:
+      - "10000:80"
+    environment:
+        ExchangeListenerRedisHost: redisOfficial:6379
+        ExchangeListenerRedisDatabase: 0
+        PodName: ExchangeListener
+    extra_hosts:
+      - "k_krylov_n:127.0.0.1"
+      - "k_krylov_n.tscrm.com:127.0.0.1"
+
+    depends_on:
+      - redisOfficial
+    dns:
+      - 8.8.8.8 
+    #   - 10.0.7.1
+    #   - 10.0.7.2
+    #   - 10.0.7.3
+    # dns_search: tscrm.com
+
+  
+  redisOfficial:
+    image: redis:latest
+    restart: unless-stopped
+    environment: {
+      ALLOW_EMPTY_PASSWORD: "yes"
+    }
+    ports:
+      - "6380:6379"
