@@ -1,0 +1,15 @@
+﻿{
+  "Descriptor": {
+    "UId": "0156cb3d-0241-214d-2c98-ac00696712e3",
+    "Name": "TraningOld",
+    "ModifiedOnUtc": "\/Date(1637075500000)\/",
+    "Maintainer": "Customer",
+    "DependsOn": [
+      {
+        "UId": "2fabaf6c-0f92-4530-aef8-40345c021da2",
+        "PackageVersion": "7.8.0",
+        "Name": "ProductCore"
+      }
+    ]
+  }
+}

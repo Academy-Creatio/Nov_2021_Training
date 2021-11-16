@@ -1,0 +1,17 @@
+﻿{
+  "Descriptor": {
+    "UId": "969fbe0f-14ac-4c55-aac4-e3a0e59e0cc1",
+    "PackageVersion": "7.8.0",
+    "Name": "Training",
+    "ModifiedOnUtc": "\/Date(1637077312000)\/",
+    "Maintainer": "Customer",
+    "Description": "Training Package\nhttps://github.com/Academy-Creatio/Nov_2021_Training",
+    "DependsOn": [
+      {
+        "UId": "2fabaf6c-0f92-4530-aef8-40345c021da2",
+        "PackageVersion": "7.8.0",
+        "Name": "ProductCore"
+      }
+    ]
+  }
+}
