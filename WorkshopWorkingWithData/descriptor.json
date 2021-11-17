@@ -1,0 +1,17 @@
+{
+  "Descriptor": {
+    "UId": "8b5786f3-ca3c-4b74-ba29-204412e9f6d6",
+    "PackageVersion": "7.8.0",
+    "Name": "WorkshopWorkingWithData",
+    "ModifiedOnUtc": "/Date(1597049726000)/",
+    "Maintainer": "Customer",
+    "Description": "Working with data workshop",
+    "DependsOn": [
+      {
+        "UId": "fe1effeb-74f2-42c5-b5e1-dfe0313b86bf",
+        "PackageVersion": "7.8.0",
+        "Name": "Studio"
+      }
+    ]
+  }
+}
