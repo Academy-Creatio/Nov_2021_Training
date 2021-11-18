@@ -29,7 +29,7 @@ namespace WorkshopWorkingWithData.Files.EventListener
             //Check if columns changed are the ones I care about
             if (!entity.IsChangeInteresting(InterestingColumns)) return;
 
-            //if (CountOverlappingActivitiesEsq(entity) != 0)
+            //if (CountOverlappingActivityEsq(entity) != 0)
             if (CountOverlappingActivitiesSelect(entity) != 0)
             {
                 e.IsCanceled = true;
@@ -139,7 +139,7 @@ namespace WorkshopWorkingWithData.Files.EventListener
                 esqResult.CreateFilterWithParameters(FilterComparisonType.NotEqual, "Id", activity.GetTypedColumnValue<Guid>("Id"));
             esqResult.Filters.Add(activityIdFilter);
 
-            esqResult.Filters.LogicalOperation = Terrasoft.Common.LogicalOperationStrict.And;
+            //esqResult.Filters.LogicalOperation = Terrasoft.Common.LogicalOperationStrict.And;
             IEntitySchemaQueryFilterItem activityTypeFilter =
                 esqResult.CreateFilterWithParameters(FilterComparisonType.Equal, "Type", activityType);
             esqResult.Filters.Add(activityTypeFilter);
