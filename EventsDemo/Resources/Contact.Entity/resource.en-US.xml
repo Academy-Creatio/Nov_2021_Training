@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Columns.Login.Caption" Value="Login" />
+			<Item Name="EventsProcessSchema.BaseElements.EventSubProcess4_edb97d86cb8446ceb6519448272a2a9e.Caption" Value="ContactLoaded" />
+			<Item Name="EventsProcessSchema.BaseElements.EventSubProcess_ContactLoading.Caption" Value="ContactLoading" />
+			<Item Name="EventsProcessSchema.BaseElements.EventSubProcess_OnContactSaved.Caption" Value="Contact Saved" />
+			<Item Name="EventsProcessSchema.BaseElements.EventSubProcess_OnContactSaving.Caption" Value="ContactSaving" />
+			<Item Name="EventsProcessSchema.BaseElements.ScriptTask_LogMessageOnSaved.Caption" Value="Log Message" />
+			<Item Name="EventsProcessSchema.BaseElements.ScriptTask_LogMessageOnSaving.Caption" Value="Log Message" />
+			<Item Name="EventsProcessSchema.BaseElements.StartMessage6_d8d1297caafd4bf0a66463b836150271.Caption" Value="On Contact Loading" />
+			<Item Name="EventsProcessSchema.Caption" Value="Contact" />
+			<Item Name="EventsProcessSchema.LaneSets.LaneSet_c16e76be329a4a1aa8a1b41b2a1a9961.Caption" Value="LaneSet 1" />
+			<Item Name="EventsProcessSchema.LaneSets.LaneSet_c16e76be329a4a1aa8a1b41b2a1a9961.Lanes.Lane_3e7c0e2d6b654dd5a6cfce9fe67381b8.Caption" Value="Lane 1" />
+		</Items>
+	</Group>
+</Resources>
