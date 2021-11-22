@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ar-SA">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.DuplicatesActionCaptionPattern.Value" Value="Show duplicate '{0}'" />
+			<Item Name="LocalizableStrings.FillContactWithSocialNetworksDataActionCaption.Value" Value="تحديث مع بيانات الشبكات الاجتماعية" />
+			<Item Name="LocalizableStrings.GenerateReportWithoutFiltersConfirmationMessage.Value" Value="The report will be generated for all records in the section, without filters. Do you wish to proceed?" />
+			<Item Name="LocalizableStrings.ReadSyncSettingsBadResponse.Value" Value="خطأ في الحصول على إعدادات المزامنة." />
+			<Item Name="LocalizableStrings.SetUpSynchronization.Value" Value="إعداد مزامنة جهة الإتصال" />
+			<Item Name="LocalizableStrings.SubscribeCaption.Value" Value="متابعة التغذية" />
+			<Item Name="LocalizableStrings.SynchronizeExchangeContactsCaption.Value" Value="مزامنة جهات اتصال تبادل مايكروسوفت" />
+			<Item Name="LocalizableStrings.SynchronizeExchangeSuccessMessage.Value" Value="بدء تشغيل المزامنة. سنقوم بإشعارك عندما يتم الانتهاء من ذلك." />
+			<Item Name="LocalizableStrings.SyncSettingsNotFoundMessage.Value" Value="إعدادات التزامن غير محددة." />
+			<Item Name="LocalizableStrings.SyncSettingsSetTipCaption.Value" Value="الآن سوف تكون جهات الاتصال الخاصة بك دائماً محدثة!&lt;br&gt;إذا لزم الأمر، &lt;a href=&quot;#&quot;&gt;تغيير إعدادات&lt;/a&gt;" />
+			<Item Name="LocalizableStrings.UnsubscribeCaption.Value" Value="إلغاء متابعة التغذية" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="uk-UA">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.DuplicatesActionCaptionPattern.Value" Value="Перейти до дублів розділу '{0}'" />
+			<Item Name="LocalizableStrings.FillContactWithSocialNetworksDataActionCaption.Value" Value="Збагатити даними з соц. мереж" />
+			<Item Name="LocalizableStrings.GenerateReportWithoutFiltersConfirmationMessage.Value" Value="Звіт буде сформовано по всім записам розділу, без врахування фільтрів. Продовжити?" />
+			<Item Name="LocalizableStrings.ReadSyncSettingsBadResponse.Value" Value="Помилка отримання налаштувань синхронізації." />
+			<Item Name="LocalizableStrings.SetUpSynchronization.Value" Value="Налаштувати синхронізацію контактів" />
+			<Item Name="LocalizableStrings.SubscribeCaption.Value" Value="Підписатись на оновлення стрічки" />
+			<Item Name="LocalizableStrings.SynchronizeExchangeContactsCaption.Value" Value="Синхронізувати з контактами Exchange" />
+			<Item Name="LocalizableStrings.SynchronizeExchangeSuccessMessage.Value" Value="Синхронізацію розпочато. Ми покажемо вам повідомлення, коли вона завершиться." />
+			<Item Name="LocalizableStrings.SyncSettingsNotFoundMessage.Value" Value="Налаштування синхронізації не заповнені." />
+			<Item Name="LocalizableStrings.SyncSettingsSetTipCaption.Value" Value="Вітаємо! Тепер ваші контакти завжди будуть актуальними. &lt;br&gt; Ви можете &lt;a href=&quot;#&quot;&gt; змінити налаштування &lt;/a&gt;, які ми встановили за замовчуванням." />
+			<Item Name="LocalizableStrings.UnsubscribeCaption.Value" Value="Відписатися від оновлень стрічки" />
+		</Items>
+	</Group>
+</Resources>

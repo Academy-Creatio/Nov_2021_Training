@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="vi-VN">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.DuplicatesActionCaptionPattern.Value" Value="Hiển thị trùng lặp '{0}'" />
+			<Item Name="LocalizableStrings.FillContactWithSocialNetworksDataActionCaption.Value" Value="Cập nhật với dữ liệu mạng xã hội" />
+			<Item Name="LocalizableStrings.GenerateReportWithoutFiltersConfirmationMessage.Value" Value="Báo cáo sẽ được tạo cho tất cả các bản ghi trong phần, không có bộ lọc. Bạn có muốn tiếp tục?" />
+			<Item Name="LocalizableStrings.ReadSyncSettingsBadResponse.Value" Value="Lỗi khi nhận cài đặt đồng bộ hóa." />
+			<Item Name="LocalizableStrings.SetUpSynchronization.Value" Value="Thiết lập đồng bộ hóa liên lạc" />
+			<Item Name="LocalizableStrings.SubscribeCaption.Value" Value="Theo dõi tin tức" />
+			<Item Name="LocalizableStrings.SynchronizeExchangeContactsCaption.Value" Value="Đồng bộ hóa các liên hệ MS Exchange" />
+			<Item Name="LocalizableStrings.SynchronizeExchangeSuccessMessage.Value" Value="Đồng bộ hóa được bắt đầu. Chúng tôi sẽ thông báo khi hoàn tất." />
+			<Item Name="LocalizableStrings.SyncSettingsNotFoundMessage.Value" Value="Cài đặt đồng bộ hóa không được chỉ định." />
+			<Item Name="LocalizableStrings.SyncSettingsSetTipCaption.Value" Value="Giờ đây, các liên hệ của bạn sẽ luôn được cập nhật! &lt;br&gt; Nếu cần, &lt;a href=&quot;#&quot;&gt; thay đổi cài đặt &lt;/a&gt;" />
+			<Item Name="LocalizableStrings.UnsubscribeCaption.Value" Value="Bỏ theo dõi tin tức" />
+		</Items>
+	</Group>
+</Resources>

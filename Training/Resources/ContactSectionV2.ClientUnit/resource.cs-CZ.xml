@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="cs-CZ">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.DuplicatesActionCaptionPattern.Value" Value="Zobrazit duplicitu '{0}'" />
+			<Item Name="LocalizableStrings.FillContactWithSocialNetworksDataActionCaption.Value" Value="Načíst ze sociálních sítí" />
+			<Item Name="LocalizableStrings.GenerateReportWithoutFiltersConfirmationMessage.Value" Value="The report will be generated for all records in the section, without filters. Do you wish to proceed?" />
+			<Item Name="LocalizableStrings.ReadSyncSettingsBadResponse.Value" Value="Nastala chyba při načtení nastavení synchronizace." />
+			<Item Name="LocalizableStrings.SetUpSynchronization.Value" Value="Nastavení synchronizaci kontaktů" />
+			<Item Name="LocalizableStrings.SubscribeCaption.Value" Value="Sledovat kanál" />
+			<Item Name="LocalizableStrings.SynchronizeExchangeContactsCaption.Value" Value="Synchronizovat s kontakty s MS Exchange" />
+			<Item Name="LocalizableStrings.SynchronizeExchangeSuccessMessage.Value" Value="Synchronizace byla spuštěna. O jejím ukončení Vás budeme informovat." />
+			<Item Name="LocalizableStrings.SyncSettingsNotFoundMessage.Value" Value="Synchronizace není nastavena." />
+			<Item Name="LocalizableStrings.SyncSettingsSetTipCaption.Value" Value="Teď Vaše kontakty budou vždy aktuální!&lt;br&gt;Potřebujete-li, &lt;a href=&quot;#&quot;&gt;upravte nastavení&lt;/a&gt;" />
+			<Item Name="LocalizableStrings.UnsubscribeCaption.Value" Value="Přestat sledovat" />
+		</Items>
+	</Group>
+</Resources>

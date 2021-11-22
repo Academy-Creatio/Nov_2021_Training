@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ro-RO">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.DuplicatesActionCaptionPattern.Value" Value="Show duplicate '{0}'" />
+			<Item Name="LocalizableStrings.FillContactWithSocialNetworksDataActionCaption.Value" Value="Actualizati cu datele retelelor sociale" />
+			<Item Name="LocalizableStrings.GenerateReportWithoutFiltersConfirmationMessage.Value" Value="The report will be generated for all records in the section, without filters. Do you wish to proceed?" />
+			<Item Name="LocalizableStrings.ReadSyncSettingsBadResponse.Value" Value="Eroare la primirea setarilor de sincronizare." />
+			<Item Name="LocalizableStrings.SetUpSynchronization.Value" Value="Setati sincronizarea de contacte" />
+			<Item Name="LocalizableStrings.SubscribeCaption.Value" Value="Urmati alimentarea" />
+			<Item Name="LocalizableStrings.SynchronizeExchangeContactsCaption.Value" Value="Contacte MS Exchange" />
+			<Item Name="LocalizableStrings.SynchronizeExchangeSuccessMessage.Value" Value="Sincronizarea este demarata. Va vom notifica atunci cand este finalizata." />
+			<Item Name="LocalizableStrings.SyncSettingsNotFoundMessage.Value" Value="Setarile de sincronizare nu au fost specificate." />
+			<Item Name="LocalizableStrings.SyncSettingsSetTipCaption.Value" Value="Acum contactele Dvs vor fi intotdeauna actualizate!&lt;br&gt;If needed, &lt;a href=&quot;#&quot;&gt;change the settings&lt;/a&gt;" />
+			<Item Name="LocalizableStrings.UnsubscribeCaption.Value" Value="Renuntati la urmarirea alimentarii" />
+		</Items>
+	</Group>
+</Resources>

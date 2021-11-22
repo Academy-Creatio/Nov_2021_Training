@@ -30,8 +30,8 @@
 |3|[Video][d3v]|
 |4|[Video][d4v]|
 |5|[Video][d5v]|
-<!-- 
 |6|[Video][d6v]|
+<!-- 
 |7|[Video][d7v]|
 |8|[Video][d8v]|
 -->
@@ -56,9 +56,8 @@ Thank you for having taken development training with me. In order to make this c
 [d3v]: https://creatio-global.zoom.us/rec/share/nejg3Q9NGNKxiurPlH-8L2fiCE6WT3JD97PEgwv_lMHFDR4da4Cti6AQyvf7ZFN1.oEyKfO3gqHM5O8Oo
 [d4v]: https://creatio-global.zoom.us/rec/share/BMukV0FJbVEGh5u9peBT-phfjMSlPlZLpSMDG3XDTuCshG_jRE9hTTHhACyQyysa.qJtCtvSsF2GVjVkx
 [d5v]: https://creatio-global.zoom.us/rec/share/V9qZUYUVmXkPIdK2uuWzWYYJQrINm9LMTiXw8ceSbxKhnQ_WkvlhGN9HBX3s3tVp.0XWwAivEpBjzlxh5
-
+[d6v]: https://creatio-global.zoom.us/rec/share/hZ5tC6ZAcldI5-DecuStEFrM2mqeH7Vdau06DMxrQpKPpjHh1kyDfAXn_O__njo.-vXRTMfAtS7R0k5r
 <!-- 
-[d6v]: 
 [d7v]: 
 [d8v]:  -->
 

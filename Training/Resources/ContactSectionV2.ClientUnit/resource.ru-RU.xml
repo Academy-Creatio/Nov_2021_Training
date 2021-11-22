@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="Images.27823e50-286c-4925-8ba3-79e01442306d.Image" Type="Image" ContentType="Data" FileExtension=".svg" Value="PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMjAgMjAiPjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzgwOTViMyIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIj48cGF0aCBkPSJtNi41IDEzdi0yLjVoMTB2NGgtMy41Ii8+PHBhdGggZD0ibTMuNSAxMi41aDEwdjRoLTEweiIvPjxwYXRoIGQ9Im02LjUgNXYtMi41aDEwdjRoLTMuNSIvPjxwYXRoIGQ9Im0zLjUgNC41aDEwdjRoLTEweiIvPjwvZz48L3N2Zz4=" />
+			<Item Name="LocalizableStrings.DuplicatesActionCaptionPattern.Value" Value="Перейти к дублям раздела '{0}'" />
+			<Item Name="LocalizableStrings.FillContactWithSocialNetworksDataActionCaption.Value" Value="Обогатить данными из соц. сетей" />
+			<Item Name="LocalizableStrings.GenerateReportWithoutFiltersConfirmationMessage.Value" Value="Отчет будет сформирован по всем записям раздела, без учета фильтров. Продолжить?" />
+			<Item Name="LocalizableStrings.ReadSyncSettingsBadResponse.Value" Value="Ошибка получения настроек синхронизации." />
+			<Item Name="LocalizableStrings.SetUpSynchronization.Caption" Value="SetUpSynchronization" />
+			<Item Name="LocalizableStrings.SetUpSynchronization.Value" Value="Настроить синхронизацию контактов" />
+			<Item Name="LocalizableStrings.SubscribeCaption.Value" Value="Подписаться на обновление ленты" />
+			<Item Name="LocalizableStrings.SynchronizeExchangeContactsCaption.Value" Value="Синхронизировать с контактами Exchange" />
+			<Item Name="LocalizableStrings.SynchronizeExchangeSuccessMessage.Value" Value="Синхронизация начата. Мы покажем вам уведомление, когда она завершится." />
+			<Item Name="LocalizableStrings.SyncSettingsNotFoundMessage.Value" Value="Настройки синхронизации не заполнены." />
+			<Item Name="LocalizableStrings.SyncSettingsSetTipCaption.Caption" Value="SyncSettingsSetTipCaption" />
+			<Item Name="LocalizableStrings.SyncSettingsSetTipCaption.Value" Value="Поздравляем! Теперь ваши контакты всегда будут актуальными.&lt;br&gt;Вы можете &lt;a href=&quot;#&quot;&gt;изменить настройки&lt;/a&gt;, которые мы установили по умолчанию." />
+			<Item Name="LocalizableStrings.UnsubscribeCaption.Value" Value="Отписаться от обновлений ленты" />
+		</Items>
+	</Group>
+</Resources>

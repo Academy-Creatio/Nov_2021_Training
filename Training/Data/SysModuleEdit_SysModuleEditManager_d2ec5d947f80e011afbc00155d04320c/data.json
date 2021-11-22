@@ -1,0 +1,65 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "d2ec5d94-7f80-e011-afbc-00155d04320c"
+        },
+        {
+          "SchemaColumnUId": "f7b189f1-06c6-4b54-bb04-eaf91625177f",
+          "Value": "a3e7bf65-7380-e011-afbc-00155d04320c",
+          "DisplayValue": "null"
+        },
+        {
+          "SchemaColumnUId": "56c33b79-2d9a-4b49-adb4-79df03d178e9",
+          "Value": "null"
+        },
+        {
+          "SchemaColumnUId": "c53035ba-426a-4b98-a5fa-2d2966b2c908",
+          "Value": true
+        },
+        {
+          "SchemaColumnUId": "ca35057b-1338-4316-9d6f-8c35f98f5db5",
+          "Value": 0
+        },
+        {
+          "SchemaColumnUId": "a90e57e9-5e2c-40e8-80e2-3ac8b48f9619",
+          "Value": "143"
+        },
+        {
+          "SchemaColumnUId": "ae683a77-0faf-4743-a1c2-abadf29f6e98",
+          "Value": "null"
+        },
+        {
+          "SchemaColumnUId": "fcd5ccc3-2a7a-4a9d-b8b8-e78f76efe747",
+          "Value": "8737e39c-ac08-4903-acd0-11570570691d"
+        },
+        {
+          "SchemaColumnUId": "a19bf4bf-e22b-49b5-b6e0-918ff6290020",
+          "Value": "New contact"
+        },
+        {
+          "SchemaColumnUId": "f14f9a76-5ad3-47f9-b175-b7648b7bd340",
+          "Value": "Contact"
+        },
+        {
+          "SchemaColumnUId": "55132174-2b96-4e0a-830c-b8e952b12c45",
+          "Value": "Contact"
+        },
+        {
+          "SchemaColumnUId": "350ddc16-b017-4661-ae25-33482662a8d2",
+          "Value": "2741dd1e-7c35-432c-915a-9aa228eb057b"
+        },
+        {
+          "SchemaColumnUId": "9cf420d8-04d4-4c81-ac33-8d00dc0704b9",
+          "Value": "81ecc8f8-fe04-45a5-9827-2c7ee5d7ee81"
+        },
+        {
+          "SchemaColumnUId": "a4fcaa97-6bfa-4e5e-a130-6a9515254107",
+          "Value": "add;;view"
+        }
+      ]
+    }
+  ]
+}

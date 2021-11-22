@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="he-IL">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.DuplicatesActionCaptionPattern.Value" Value="הצג כפילות '{0}'" />
+			<Item Name="LocalizableStrings.FillContactWithSocialNetworksDataActionCaption.Value" Value="עדכן מנתוני רשת חברתית" />
+			<Item Name="LocalizableStrings.GenerateReportWithoutFiltersConfirmationMessage.Value" Value="הדו&quot;ח יופק עבור כל הרשומות במודול, בלי פילטרים. האם אתה מעוניין להמשיך?" />
+			<Item Name="LocalizableStrings.ReadSyncSettingsBadResponse.Value" Value="שגיאה בקבלת הגדרות סנכרון." />
+			<Item Name="LocalizableStrings.SetUpSynchronization.Value" Value="הגדרת סנכרון אנשי קשר" />
+			<Item Name="LocalizableStrings.SubscribeCaption.Value" Value="עקוב אחר לוח ההודעות" />
+			<Item Name="LocalizableStrings.SynchronizeExchangeContactsCaption.Value" Value="סנכרון אנשי קשר של MS Exchange" />
+			<Item Name="LocalizableStrings.SynchronizeExchangeSuccessMessage.Value" Value="הסנכרון מתחיל. אנו נודיע לך כאשר יושלם." />
+			<Item Name="LocalizableStrings.SyncSettingsNotFoundMessage.Value" Value="לא הוגדרו הגדרות סנכרון." />
+			<Item Name="LocalizableStrings.SyncSettingsSetTipCaption.Value" Value="עכשיו אנשי הקשר שלך יהיו תמיד מעודכנים! &lt;br&gt; במידת הצורך, &lt;a href=&quot;#&quot;&gt; שנה את ההגדרות &lt;/a&gt;" />
+			<Item Name="LocalizableStrings.UnsubscribeCaption.Value" Value="בטל מעקב אחר לוח ההודועות" />
+		</Items>
+	</Group>
+</Resources>

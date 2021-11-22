@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="th-TH">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.DuplicatesActionCaptionPattern.Value" Value="แสดงสิ่งที่ซ้ำ '{0}'" />
+			<Item Name="LocalizableStrings.FillContactWithSocialNetworksDataActionCaption.Value" Value="อัพเดตด้วยข้อมูลโซเชียลเนตเวิต์ก" />
+			<Item Name="LocalizableStrings.GenerateReportWithoutFiltersConfirmationMessage.Value" Value="The report will be generated for all records in the section, without filters. Do you wish to proceed?" />
+			<Item Name="LocalizableStrings.ReadSyncSettingsBadResponse.Value" Value="การตั้งค่าการซิงค์โครไนซ์การรับข้อผิดพลาด." />
+			<Item Name="LocalizableStrings.SetUpSynchronization.Value" Value="ตั้งค่าการซิงค์โครไนซ์ที่ติดต่อ" />
+			<Item Name="LocalizableStrings.SubscribeCaption.Value" Value="ติดตามฟีด" />
+			<Item Name="LocalizableStrings.SynchronizeExchangeContactsCaption.Value" Value="การซิงค์โครไนซ์ผู้ติดต่อของ MS Exchange" />
+			<Item Name="LocalizableStrings.SynchronizeExchangeSuccessMessage.Value" Value="การซิงค์โครไนซ์เริ่มแล้ว  เราจะแจ้งคุณเมื่อมันทำงานแล้วเสร็จ." />
+			<Item Name="LocalizableStrings.SyncSettingsNotFoundMessage.Value" Value="ไม่ได้ระบุการตั้งค่าการซิงค์โครไนซ์." />
+			<Item Name="LocalizableStrings.SyncSettingsSetTipCaption.Value" Value="ตอนนี้ ผู้ติดต่อของคุณจะเป็นปัจจุบันเสมอ!&lt;br&gt;หากจำเป็น &lt;a href=&quot;#&quot;&gt;เปลี่ยนการตั้งค่า&lt;/a&gt;" />
+			<Item Name="LocalizableStrings.UnsubscribeCaption.Value" Value="ยกเลิกการติดตามฟีด" />
+		</Items>
+	</Group>
+</Resources>

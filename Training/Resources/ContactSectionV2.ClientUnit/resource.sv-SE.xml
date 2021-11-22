@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="sv-SE">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.DuplicatesActionCaptionPattern.Value" Value="Visa dubblett '{0}'" />
+			<Item Name="LocalizableStrings.FillContactWithSocialNetworksDataActionCaption.Value" Value="Uppdatera med sociala nätverk-data" />
+			<Item Name="LocalizableStrings.GenerateReportWithoutFiltersConfirmationMessage.Value" Value="The report will be generated for all records in the section, without filters. Do you wish to proceed?" />
+			<Item Name="LocalizableStrings.ReadSyncSettingsBadResponse.Value" Value="Fel vid mottagande av synkroniseringsinställningar." />
+			<Item Name="LocalizableStrings.SetUpSynchronization.Value" Value="Ställ in kontaktsynkronisering" />
+			<Item Name="LocalizableStrings.SubscribeCaption.Value" Value="Följ inlägg" />
+			<Item Name="LocalizableStrings.SynchronizeExchangeContactsCaption.Value" Value="Synkronisering av MS Exchange-kontakter" />
+			<Item Name="LocalizableStrings.SynchronizeExchangeSuccessMessage.Value" Value="Synkronisering har startat. Vi meddelar dig när den är klar." />
+			<Item Name="LocalizableStrings.SyncSettingsNotFoundMessage.Value" Value="Synkronieringsinställningar har inte angetts." />
+			<Item Name="LocalizableStrings.SyncSettingsSetTipCaption.Value" Value="Nu kommer dina kontakter alltid vara uppdaterade!&lt;br&gt;Vid behov kan du &lt;a href=&quot;#&quot;&gt;ändra inställningarna&lt;/a&gt;" />
+			<Item Name="LocalizableStrings.UnsubscribeCaption.Value" Value="Sluta följa inlägg" />
+		</Items>
+	</Group>
+</Resources>

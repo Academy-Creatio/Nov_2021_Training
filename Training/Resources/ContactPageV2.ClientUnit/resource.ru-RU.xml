@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="Images.72a10ccc-5746-4ee1-9a4d-61fb14d53899.Caption" Value="EnrichCloudIcon" />
+			<Item Name="Images.72a10ccc-5746-4ee1-9a4d-61fb14d53899.Image" Type="Image" ContentType="Data" FileExtension=".svg" Value="PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMiA4IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMiA4Ij48cGF0aCBkPSJtOS43IDNjLS40LTEuNy0xLjktMy0zLjctMy0xLjQgMC0yLjcuOC0zLjMgMi0xLjUuMi0yLjcgMS41LTIuNyAzIDAgMS43IDEuMyAzIDMgM2g2LjVjMS40IDAgMi41LTEuMSAyLjUtMi41IDAtMS4zLTEtMi40LTIuMy0yLjUiIGZpbGw9IiNmY2E3NTQiLz48cGF0aCBmaWxsPSIjZmZmIiBkPSJtNSA2LjVsLTEuNy0xLjcuNy0uOCAxIDEuMSAyLjYtMi42LjcuN3oiLz48L3N2Zz4=" />
+			<Item Name="LocalizableStrings.CompletenessHint.Caption" Value="Message to user 1" />
+			<Item Name="LocalizableStrings.CompletenessHint.Value" Value="Степень наполненности данными профиля. Нажмите на шкалу, чтобы посмотреть, каких данных не хватает в профиле." />
+			<Item Name="LocalizableStrings.CompletenessLabel.Value" Value="Полнота профиля" />
+			<Item Name="LocalizableStrings.EngagementTabTabCaption.Value" Value="Привлечение" />
+			<Item Name="LocalizableStrings.EnrichCloudCaption.Value" Value="Найдены данные" />
+			<Item Name="LocalizableStrings.ESNTabCaption.Value" Value="Лента" />
+			<Item Name="LocalizableStrings.FillContactWithSocialNetworksDataActionCaption.Value" Value="Обогатить данными из соц. сетей" />
+			<Item Name="LocalizableStrings.FormSubmitDetailDetailCaptionOnPage.Value" Value="Заполненные веб-формы" />
+			<Item Name="LocalizableStrings.RelationshipTabCaption.Value" Value="Взаимосвязи" />
+			<Item Name="LocalizableStrings.SubscribeCaption.Value" Value="Подписаться на обновление ленты" />
+			<Item Name="LocalizableStrings.SubscribedInformationDialog.Value" Value="Вы подписаны на обновление ленты: {0}" />
+			<Item Name="LocalizableStrings.TimelineTabCaption.Value" Value="Хронология" />
+			<Item Name="LocalizableStrings.TouchDetailDetailCaptionOnPage.Value" Value="Сессии на сайте" />
+			<Item Name="LocalizableStrings.UnsubscribeCaption.Value" Value="Отписаться от обновлений ленты" />
+			<Item Name="LocalizableStrings.UnsubscribedInformationDialog.Value" Value="Вы отписаны от обновлений ленты: {0}" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="nl-NL">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.DuplicatesActionCaptionPattern.Value" Value="Duplicaat '{0}' weergeven" />
+			<Item Name="LocalizableStrings.FillContactWithSocialNetworksDataActionCaption.Value" Value="Bijwerken met sociale netwerkgegevens" />
+			<Item Name="LocalizableStrings.GenerateReportWithoutFiltersConfirmationMessage.Value" Value="The report will be generated for all records in the section, without filters. Do you wish to proceed?" />
+			<Item Name="LocalizableStrings.ReadSyncSettingsBadResponse.Value" Value="Fout bij het ontvangen van synchronisatie-instellingen." />
+			<Item Name="LocalizableStrings.SetUpSynchronization.Value" Value="Instellen contact synchronisatie" />
+			<Item Name="LocalizableStrings.SubscribeCaption.Value" Value="Volg de feed" />
+			<Item Name="LocalizableStrings.SynchronizeExchangeContactsCaption.Value" Value="MS Exchange contact synchronsatie" />
+			<Item Name="LocalizableStrings.SynchronizeExchangeSuccessMessage.Value" Value="E-mails ontvangen." />
+			<Item Name="LocalizableStrings.SyncSettingsNotFoundMessage.Value" Value="Synchronisatie-instellingen niet gespecificeerd." />
+			<Item Name="LocalizableStrings.SyncSettingsSetTipCaption.Value" Value="Je contacten altijd up-to-date! &lt;br&gt; Indien nodig, &lt;a href=&quot;#&quot;&gt; zijn de instellingen te wijzigen &lt;/a&gt;" />
+			<Item Name="LocalizableStrings.UnsubscribeCaption.Value" Value="Feed niet meer volgen" />
+		</Items>
+	</Group>
+</Resources>

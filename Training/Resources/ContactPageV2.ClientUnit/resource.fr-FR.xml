@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="fr-FR">
+	<Group Type="String">
+		<Items>
+			<Item Name="Images.72a10ccc-5746-4ee1-9a4d-61fb14d53899.Caption" Value="EnrichCloudIcon" />
+			<Item Name="LocalizableStrings.CompletenessHint.Value" Value="Pourcentage de remplissage du profil. Cliquez sur l'indicateur pour voir les données nécessaires pour compléter le profil." />
+			<Item Name="LocalizableStrings.CompletenessLabel.Value" Value="Profil complet" />
+			<Item Name="LocalizableStrings.EngagementTabTabCaption.Value" Value="Engagement" />
+			<Item Name="LocalizableStrings.EnrichCloudCaption.Value" Value="De nouvelle données ont été trouvées" />
+			<Item Name="LocalizableStrings.ESNTabCaption.Value" Value="Feed" />
+			<Item Name="LocalizableStrings.FillContactWithSocialNetworksDataActionCaption.Value" Value="Mettre à jour les données des réseaux sociaux" />
+			<Item Name="LocalizableStrings.FormSubmitDetailDetailCaptionOnPage.Value" Value="Formulaires soumis" />
+			<Item Name="LocalizableStrings.RelationshipTabCaption.Value" Value="Associé à" />
+			<Item Name="LocalizableStrings.SubscribeCaption.Value" Value="Suivre le feed" />
+			<Item Name="LocalizableStrings.SubscribedInformationDialog.Value" Value="Vous suivez désormais le feed: {0}" />
+			<Item Name="LocalizableStrings.TimelineTabCaption.Value" Value="Chronologie" />
+			<Item Name="LocalizableStrings.TouchDetailDetailCaptionOnPage.Value" Value="Sessions Web" />
+			<Item Name="LocalizableStrings.UnsubscribeCaption.Value" Value="Ne plus suivre le feed" />
+			<Item Name="LocalizableStrings.UnsubscribedInformationDialog.Value" Value="Vous avez arrêté de suivre le feed: {0}" />
+		</Items>
+	</Group>
+</Resources>

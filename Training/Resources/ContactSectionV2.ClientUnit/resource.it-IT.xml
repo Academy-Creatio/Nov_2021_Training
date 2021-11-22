@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="it-IT">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.DuplicatesActionCaptionPattern.Value" Value="Show duplicate '{0}'" />
+			<Item Name="LocalizableStrings.FillContactWithSocialNetworksDataActionCaption.Value" Value="Aggiorna con dati dai social network" />
+			<Item Name="LocalizableStrings.GenerateReportWithoutFiltersConfirmationMessage.Value" Value="The report will be generated for all records in the section, without filters. Do you wish to proceed?" />
+			<Item Name="LocalizableStrings.ReadSyncSettingsBadResponse.Value" Value="Errore di ricezione delle impostazioni di sincronizzazione." />
+			<Item Name="LocalizableStrings.SetUpSynchronization.Value" Value="Imposta sincronizzazione contatti" />
+			<Item Name="LocalizableStrings.SubscribeCaption.Value" Value="Segui il feed" />
+			<Item Name="LocalizableStrings.SynchronizeExchangeContactsCaption.Value" Value="Sincronizzazione contatti MS Exchange" />
+			<Item Name="LocalizableStrings.SynchronizeExchangeSuccessMessage.Value" Value="La sincronizzazione è iniziata. riceverai una notifica appena sarà completata." />
+			<Item Name="LocalizableStrings.SyncSettingsNotFoundMessage.Value" Value="Impostazioni di sincronizzazione non specificate." />
+			<Item Name="LocalizableStrings.SyncSettingsSetTipCaption.Value" Value="Ora i tuoi contatti sono sempre aggiornati!&lt;br&gt;Se necessario, &lt;a href=&quot;#&quot;&gt;modifica le impostazioni&lt;/a&gt;" />
+			<Item Name="LocalizableStrings.UnsubscribeCaption.Value" Value="Smetti di seguire il feed" />
+		</Items>
+	</Group>
+</Resources>
