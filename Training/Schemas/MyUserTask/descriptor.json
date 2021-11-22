@@ -1,0 +1,9 @@
+﻿{
+  "Descriptor": {
+    "UId": "f5b9015b-9c66-4dc1-9e5a-fd0e5a51ba02",
+    "Name": "MyUserTask",
+    "ModifiedOnUtc": "\/Date(1637340518000)\/",
+    "ManagerName": "ProcessUserTaskSchemaManager",
+    "Caption": "MyUserTask"
+  }
+}

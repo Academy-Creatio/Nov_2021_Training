@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="BaseElements.StartEvent1.Caption" Value="async Start" />
+			<Item Name="BaseElements.UserTask1.Caption" Value="MyUserTask 1" />
+			<Item Name="BaseElements.UserTask1.Parameters.Age.Caption" Value="Age" />
+			<Item Name="BaseElements.UserTask1.Parameters.Age.DisplayValue" Value="[#Age#]" />
+			<Item Name="BaseElements.UserTask1.Parameters.Email.Caption" Value="Email" />
+			<Item Name="BaseElements.UserTask1.Parameters.Email.DisplayValue" Value="[#Email#]" />
+			<Item Name="BaseElements.UserTask1.Parameters.Name.Caption" Value="Name" />
+			<Item Name="BaseElements.UserTask1.Parameters.Name.DisplayValue" Value="[#Name#]" />
+			<Item Name="Caption" Value="StartFromWs" />
+			<Item Name="LaneSets.LaneSet1.Caption" Value="LaneSet 1" />
+			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />
+			<Item Name="NotificationCaption.Caption" Value="Process instance caption" />
+			<Item Name="NotificationCaption.DisplayValue" Value="[#Process name#]" />
+			<Item Name="Parameters.Age.Caption" Value="Age" />
+			<Item Name="Parameters.contactId.Caption" Value="Id Record Created" />
+			<Item Name="Parameters.Email.Caption" Value="Email" />
+			<Item Name="Parameters.Name.Caption" Value="Name" />
+		</Items>
+	</Group>
+</Resources>

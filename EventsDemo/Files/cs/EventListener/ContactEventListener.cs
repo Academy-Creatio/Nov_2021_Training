@@ -81,11 +81,11 @@ namespace EventsDemo.Files.cs.EventListener
 			base.OnSaving(sender, e);
 			Entity entity = (Entity)sender;
 			UserConnection userConnection = entity.UserConnection;
-			//entity.Validating += Entity_Validating;
-			//ILog _log = LogManager.GetLogger("GuidedLearningLogger");
-			_log.Info("ContactEventListener  Cantact OnSaving");
 
+			e.IsCanceled = true;
+			entity.Validating += Entity_Validating;
 		}
+
 
 		private void Entity_Validating(object sender, EntityValidationEventArgs e)
 		{
