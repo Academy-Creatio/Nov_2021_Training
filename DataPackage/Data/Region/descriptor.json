@@ -1,0 +1,56 @@
+﻿{
+  "Descriptor": {
+    "UId": "abc28f35-3979-cc44-4242-54cb87390c12",
+    "Name": "Region",
+    "ModifiedOnUtc": "\/Date(1637771595000)\/",
+    "InstallType": 0,
+    "Schema": {
+      "UId": "fa4eb497-e6a3-4f8c-8568-5df4bd2a8b91",
+      "Name": "Region"
+    },
+    "Columns": [
+      {
+        "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+        "IsForceUpdate": false,
+        "IsKey": true,
+        "ColumnName": "Id",
+        "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+      },
+      {
+        "ColumnUId": "736c30a7-c0ec-4fa9-b034-2552b319b633",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Name",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "9e53fd7c-dde4-4502-a64c-b9e34148108b",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Description",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "8469bcc6-3a77-4706-85a9-72a2ec3aa2f5",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Country",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "5975a90a-0b6c-4216-b195-a02208e83b3c",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "TimeZone",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "dbf90876-69ce-f0a1-9d8d-f1cdfcd6d71a",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Code",
+        "DataTypeValueUId": "325a73b8-0f47-44a0-8412-7606f78003ac"
+      }
+    ]
+  }
+}

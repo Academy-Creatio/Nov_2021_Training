@@ -1,6 +1,20 @@
-define("ContactPageV2", [], function() {
+define("ContactPageV2", ["ServiceHelper", "DevTrainingMixin", "css!DevTrainingMixin", "css!MyCustomCss"], function(ServiceHelper, resources) {
 	return {
 		entitySchemaName: "Contact",
+		mixins: {
+			"DevTrainingMixin": "Terrasoft.DevTrainingMixin"
+		},
+		messages:{
+
+			/**
+			 * Published on: ContactSectionV2
+			 * @tutorial https://academy.creatio.com/docs/developer/front-end_development/sandbox_component/module_message_exchange
+			 */
+			"SectionActionClicked":{
+				mode: this.Terrasoft.MessageMode.PTP,
+				direction: this.Terrasoft.MessageDirectionType.SUBSCRIBE
+			}
+		},
 		attributes: {
 
 			IsVisible:{
@@ -40,6 +54,7 @@ define("ContactPageV2", [], function() {
 			 */
 			init: function() {
 				this.callParent(arguments);
+				this.subscribeToMessages();
 			},
 
 			/**
@@ -50,6 +65,18 @@ define("ContactPageV2", [], function() {
 			 onEntityInitialized: function() {
 				this.callParent(arguments);
 				this.setIsVisible();
+			},
+
+			/**
+			 * @inheritdoc Terrasoft.core.BaseObject#destroy
+			 * @override
+			 */
+			 destroy: function() {
+				if (this.messages) {
+					var messages = this.Terrasoft.keys(this.messages);
+					this.sandbox.unRegisterMessages(messages);
+				}
+				this.callParent(arguments);
 			},
 
 			onEmailChanged: function(){
@@ -80,14 +107,14 @@ define("ContactPageV2", [], function() {
 				actionMenuItems.addItem(this.getButtonMenuItem({
 					"Tag": "action1",
 					"Caption": this.get("Resources.Strings.ActionOneCaption"),
-					"Click": {"bindTo": "onActionClick"},
+					"Click": {"bindTo": "onActionOneClick"},
 					ImageConfig: this.get("Resources.Images.CreatioSquare"),
 				}));
 
 				actionMenuItems.addItem(this.getButtonMenuItem({
 					"Tag": "action2",
 					"Caption": this.get("Resources.Strings.ActionTwoCaption"),
-					"Click": {"bindTo": "onActionClick"},
+					"Click": {"bindTo": "onActionTwoClick"},
 					"Items": this.addSubItems()
 				}));
 
@@ -115,7 +142,127 @@ define("ContactPageV2", [], function() {
 			onMyMainButtonClick: function(){
 				var tag = arguments[3];
 				this.showInformationDialog(tag+" clicked");
-			}
+			},
+			
+			//OnSect: this.sandbox.id = SectionModuleV2_ContactSectionV2
+			//OnPage: this.sandbox.id = SectionModuleV2_ContactSectionV2_CardModuleV2
+			subscribeToMessages: function(){
+				this.sandbox.subscribe(
+					"SectionActionClicked",
+					function(args){this.onSectionMessageReceived(args);},
+					this,
+					[this.sandbox.id]
+				)
+			},
+
+			onSectionMessageReceived: function(args){
+
+				this.showInformationDialog("Message received");
+			},
+
+
+			/** Sets up synchronous validation, not suitable for async methods such as database requests or webservice calls
+			 * @inheritdoc BaseSchemaViewModel#setValidationConfig
+			 * @override
+			 */
+			 setValidationConfig: function() {
+				this.callParent(arguments);
+				this.addColumnValidator("Email", this.emailValidator);
+			 },
+
+			 emailValidator: function() {
+				let invalidMessage= "";
+				let newValue = this.$Email;
+				let corpDomain = this.$Account.Web
+
+				if (newValue.split("@")[1] !== corpDomain) {
+					invalidMessage = "Primary email has to match to corporate domain.";
+				}
+				else {
+					invalidMessage = "";
+				}
+				return {
+					invalidMessage: invalidMessage
+				};
+			 },
+
+
+			 /**
+			 * Creation of query instance with "Contact" root schema. 
+			 * @tutorial https://academy.creatio.com/docs/developer/front-end_development/crud_operations_in_configuration_schema/filters_handling
+			 */
+			onActionTwoClick: function(){
+
+				this.doESQ();
+				// var esq = Ext.create("Terrasoft.EntitySchemaQuery", {
+				// 	rootSchemaName: "Contact"
+				// });
+				// esq.addColumn("Name");
+				// esq.addColumn("Country.Name", "CountryName");
+
+				// // Select all contacts where country is not specified.
+				// var esqFirstFilter = esq.createColumnIsNullFilter("Country");
+				// esq.filters.add("esqFirstFilter", esqFirstFilter);
+
+
+				// // Select all contacts, date of birth of which fall at the period from 1.01.1970 to 1.01.1980.
+				// var dateFrom = new Date(1970, 0, 1, 0, 0, 0, 0);
+				// var dateTo = new Date(1980, 0, 1, 0, 0, 0, 0);
+				// var esqSecondFilter = esq.createColumnBetweenFilterWithParameters("BirthDate", dateFrom, dateTo);
+				
+				// // Add created filters to query collection. 
+				// esq.filters.add("esqSecondFilter", esqSecondFilter);
+
+				// // This collection will include objects, i.e. query results, filtered by two filters.
+				// esq.getEntityCollection(
+				// 	function (result) 
+				// 	{
+				// 		if (result.success) {
+				// 			result.collection.each(function (item) {
+				// 				// Processing of collection items.
+				// 				var message = item.$Name+" "+item.$CountryName;
+				// 				this.showInformationDialog(message);
+				// 			});
+				// 		}
+				// 	}, 
+				// 	this
+				// );
+			},
+
+
+			/**
+			 * Call Custom Configuration WebService
+			 * @tutorial https://academy.creatio.com/docs/developer/back-end_development/configuration_web_service/configuration_web_service#case-1241
+			 */
+			 onActionOneClick: function(){
+				
+				//Payload
+				var serviceData = {
+					"person":{
+						"email": "andrew@domain.com",
+						"name": this.$Name,
+						"age": 0
+					}	
+				};
+
+				// Calling the web service and processing the results.
+				// Can only execute/send POST requests
+				//https://baseUrl/0/rest/CustomExample/PostMethodName
+				ServiceHelper.callService(
+					"CreatioWsTemplate",  //CS - ClassName
+					"Test2", //CS Method
+					function(response) 
+					{
+						var result = response.Test2Result;
+						if(result.name){
+							//var name = result[0].name;
+							this.showInformationDialog(result.name);
+						}
+					}, 
+					serviceData, 
+					this
+				);
+			},
 
 		},
 		dataModels: /**SCHEMA_DATA_MODELS*/{}/**SCHEMA_DATA_MODELS*/,
@@ -124,6 +271,9 @@ define("ContactPageV2", [], function() {
 				"operation": "insert",
 				"name": "MyName",
 				"values": {
+					classes: {
+						"wrapperClass": ["btn-orange"]
+					},
 					"layout": {
 						"colSpan": 24,
 						"rowSpan": 1,
@@ -146,10 +296,10 @@ define("ContactPageV2", [], function() {
 				"propertyName": "items",
 				"values":{
 					itemType: this.Terrasoft.ViewItemType.BUTTON,
-					style: Terrasoft.controls.ButtonEnums.style.RED,
+					//style: Terrasoft.controls.ButtonEnums.style.RED,
 					classes: {
 						"textClass": ["actions-button-margin-right"],
-						"wrapperClass": ["actions-button-margin-right"]
+						"wrapperClass": ["actions-button-margin-right", "btn-orange"]
 					},
 					caption: {bindTo: "Resources.Strings.MyRedBtnCaption"},
 					hint: {bindTo:"Resources.Strings.MyRedBtnHint"},

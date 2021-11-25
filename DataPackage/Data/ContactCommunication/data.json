@@ -1,0 +1,156 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "24a5e69c-0d9e-43a3-9ab3-9b8cd88ba1dd"
+        },
+        {
+          "SchemaColumnUId": "12f1d73a-43c5-4a52-9bd6-3e0ecafd3fb4",
+          "Value": "ee1c85c3-cfcb-df11-9b2a-001d60e938c6",
+          "DisplayValue": "Email"
+        },
+        {
+          "SchemaColumnUId": "02fcae57-fafa-4e4f-9367-b58317a6e2ec",
+          "Value": "delete@abc.com"
+        },
+        {
+          "SchemaColumnUId": "cf226458-c1c0-4d0c-afe5-41664f2d570e",
+          "Value": "49f63ade-08f1-4225-9197-e6e3c0630a7a",
+          "DisplayValue": "delete me"
+        },
+        {
+          "SchemaColumnUId": "0c103353-496a-4ff9-a8eb-877dfed4af26",
+          "Value": 0
+        },
+        {
+          "SchemaColumnUId": "c8c5a7d8-f9c8-420a-af2a-cdb3f130e16d",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "44278aac-22bf-44eb-8b94-c5e9b3525027",
+          "Value": "delete@abc.com"
+        },
+        {
+          "SchemaColumnUId": "c93fe4de-6262-4a06-bd20-df27c2b7982c",
+          "Value": true
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "5b5cc0dd-75d2-45dc-9469-f713e1da5c4b"
+        },
+        {
+          "SchemaColumnUId": "12f1d73a-43c5-4a52-9bd6-3e0ecafd3fb4",
+          "Value": "ee1c85c3-cfcb-df11-9b2a-001d60e938c6",
+          "DisplayValue": "Email"
+        },
+        {
+          "SchemaColumnUId": "02fcae57-fafa-4e4f-9367-b58317a6e2ec",
+          "Value": "k.krylov@creatio.com"
+        },
+        {
+          "SchemaColumnUId": "cf226458-c1c0-4d0c-afe5-41664f2d570e",
+          "Value": "81d3ef86-70f2-4767-ab20-a1af8a5089df",
+          "DisplayValue": "Kirill from WS23"
+        },
+        {
+          "SchemaColumnUId": "0c103353-496a-4ff9-a8eb-877dfed4af26",
+          "Value": 0
+        },
+        {
+          "SchemaColumnUId": "c8c5a7d8-f9c8-420a-af2a-cdb3f130e16d",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "44278aac-22bf-44eb-8b94-c5e9b3525027",
+          "Value": "k.krylov@creatio.com"
+        },
+        {
+          "SchemaColumnUId": "c93fe4de-6262-4a06-bd20-df27c2b7982c",
+          "Value": true
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "9c254fa5-3d6f-45e6-96cc-b909f7a633e7"
+        },
+        {
+          "SchemaColumnUId": "12f1d73a-43c5-4a52-9bd6-3e0ecafd3fb4",
+          "Value": "6a8ba927-67cc-df11-9b2a-001d60e938c6",
+          "DisplayValue": "Web"
+        },
+        {
+          "SchemaColumnUId": "02fcae57-fafa-4e4f-9367-b58317a6e2ec",
+          "Value": "creatio.com"
+        },
+        {
+          "SchemaColumnUId": "cf226458-c1c0-4d0c-afe5-41664f2d570e",
+          "Value": "81d3ef86-70f2-4767-ab20-a1af8a5089df",
+          "DisplayValue": "Kirill from WS23"
+        },
+        {
+          "SchemaColumnUId": "0c103353-496a-4ff9-a8eb-877dfed4af26",
+          "Value": 0
+        },
+        {
+          "SchemaColumnUId": "c8c5a7d8-f9c8-420a-af2a-cdb3f130e16d",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "44278aac-22bf-44eb-8b94-c5e9b3525027",
+          "Value": "creatio.com"
+        },
+        {
+          "SchemaColumnUId": "c93fe4de-6262-4a06-bd20-df27c2b7982c",
+          "Value": true
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "4d962608-253e-4393-84fe-182f316e3851"
+        },
+        {
+          "SchemaColumnUId": "12f1d73a-43c5-4a52-9bd6-3e0ecafd3fb4",
+          "Value": "e9d91e45-8d92-4e38-95a0-ef8aa28c9e7a",
+          "DisplayValue": "Extension phone"
+        },
+        {
+          "SchemaColumnUId": "02fcae57-fafa-4e4f-9367-b58317a6e2ec",
+          "Value": "100"
+        },
+        {
+          "SchemaColumnUId": "cf226458-c1c0-4d0c-afe5-41664f2d570e",
+          "Value": "410006e1-ca4e-4502-a9ec-e54d922d2c00",
+          "DisplayValue": "Supervisor Kirill"
+        },
+        {
+          "SchemaColumnUId": "0c103353-496a-4ff9-a8eb-877dfed4af26",
+          "Value": 0
+        },
+        {
+          "SchemaColumnUId": "c8c5a7d8-f9c8-420a-af2a-cdb3f130e16d",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "44278aac-22bf-44eb-8b94-c5e9b3525027",
+          "Value": "001"
+        },
+        {
+          "SchemaColumnUId": "c93fe4de-6262-4a06-bd20-df27c2b7982c",
+          "Value": false
+        }
+      ]
+    }
+  ]
+}

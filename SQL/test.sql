@@ -1,0 +1,1 @@
+select "Id", "Number", "ContactId" from public."ContactCommunication"

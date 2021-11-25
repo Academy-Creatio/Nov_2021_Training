@@ -1,0 +1,36 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "81d3ef86-70f2-4767-ab20-a1af8a5089df"
+        },
+        {
+          "SchemaColumnUId": "a5cca792-47dd-428a-83fb-5c92bdd97ff8",
+          "Value": "Kirill from WS23"
+        },
+        {
+          "SchemaColumnUId": "dbf202ec-c444-479b-bcf4-d8e5b1863201",
+          "Value": "k.krylov@creatio.com"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "49f63ade-08f1-4225-9197-e6e3c0630a7a"
+        },
+        {
+          "SchemaColumnUId": "a5cca792-47dd-428a-83fb-5c92bdd97ff8",
+          "Value": "delete me"
+        },
+        {
+          "SchemaColumnUId": "dbf202ec-c444-479b-bcf4-d8e5b1863201",
+          "Value": "delete@abc.com"
+        }
+      ]
+    }
+  ]
+}

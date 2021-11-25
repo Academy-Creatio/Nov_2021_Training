@@ -1,0 +1,18 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "ColumnName": "Id",
+          "Value": "ac371e1c-7c96-4cf6-b252-72b21f79ff4f"
+        },
+        {
+          "SchemaColumnUId": "215e82ee-20b0-4aa2-af3b-ff06cbc6da52",
+          "ColumnName": "Name",
+          "Value": "DB Workplace"
+        }
+      ]
+    }
+  ]
+}

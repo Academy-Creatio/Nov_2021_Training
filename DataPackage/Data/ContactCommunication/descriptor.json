@@ -1,0 +1,70 @@
+﻿{
+  "Descriptor": {
+    "UId": "d2c9a495-e240-7977-5803-596ce27ee725",
+    "Name": "ContactCommunication",
+    "ModifiedOnUtc": "\/Date(1637772630000)\/",
+    "InstallType": 0,
+    "Schema": {
+      "UId": "004a9121-21f8-4a1e-8918-45c0f756ea41",
+      "Name": "ContactCommunication"
+    },
+    "Columns": [
+      {
+        "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+        "IsForceUpdate": false,
+        "IsKey": true,
+        "ColumnName": "Id",
+        "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+      },
+      {
+        "ColumnUId": "12f1d73a-43c5-4a52-9bd6-3e0ecafd3fb4",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "CommunicationType",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "02fcae57-fafa-4e4f-9367-b58317a6e2ec",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Number",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "cf226458-c1c0-4d0c-afe5-41664f2d570e",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Contact",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "0c103353-496a-4ff9-a8eb-877dfed4af26",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Position",
+        "DataTypeValueUId": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0"
+      },
+      {
+        "ColumnUId": "c8c5a7d8-f9c8-420a-af2a-cdb3f130e16d",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "SocialMediaId",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "44278aac-22bf-44eb-8b94-c5e9b3525027",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "SearchNumber",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "c93fe4de-6262-4a06-bd20-df27c2b7982c",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "IsCreatedBySynchronization",
+        "DataTypeValueUId": "90b65bf8-0ffc-4141-8779-2420877af907"
+      }
+    ]
+  }
+}

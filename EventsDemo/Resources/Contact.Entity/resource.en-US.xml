@@ -10,7 +10,7 @@
 			<Item Name="EventsProcessSchema.BaseElements.ScriptTask_LogMessageOnSaved.Caption" Value="Log Message" />
 			<Item Name="EventsProcessSchema.BaseElements.ScriptTask_LogMessageOnSaving.Caption" Value="Log Message" />
 			<Item Name="EventsProcessSchema.BaseElements.StartMessage6_d8d1297caafd4bf0a66463b836150271.Caption" Value="On Contact Loading" />
-			<Item Name="EventsProcessSchema.Caption" Value="Contact" />
+			<Item Name="EventsProcessSchema.Caption" Value="Business process" />
 			<Item Name="EventsProcessSchema.LaneSets.LaneSet_c16e76be329a4a1aa8a1b41b2a1a9961.Caption" Value="LaneSet 1" />
 			<Item Name="EventsProcessSchema.LaneSets.LaneSet_c16e76be329a4a1aa8a1b41b2a1a9961.Lanes.Lane_3e7c0e2d6b654dd5a6cfce9fe67381b8.Caption" Value="Lane 1" />
 		</Items>

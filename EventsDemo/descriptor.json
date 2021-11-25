@@ -1,11 +1,11 @@
-{
+﻿{
   "Descriptor": {
     "UId": "ece3e022-6abb-400c-a2f9-1ef14b715c29",
     "PackageVersion": "7.8.0",
     "Name": "EventsDemo",
-    "ModifiedOnUtc": "/Date(1637248118000)/",
+    "ModifiedOnUtc": "\/Date(1637248118000)\/",
     "Maintainer": "Customer",
-    "Description":  "Events",
+    "Description": "Events",
     "DependsOn": [
       {
         "UId": "2fabaf6c-0f92-4530-aef8-40345c021da2",

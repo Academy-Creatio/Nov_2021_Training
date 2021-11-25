@@ -1,6 +1,17 @@
 define("ContactSectionV2", [], function() {
 	return {
 		entitySchemaName: "Contact",
+		messages:{
+
+			/**
+			 * Subscribed  on: ContactPageV2
+			 * @tutorial https://academy.creatio.com/docs/developer/front-end_development/sandbox_component/module_message_exchange
+			 */
+			"SectionActionClicked":{
+				mode: this.Terrasoft.MessageMode.PTP,
+				direction: this.Terrasoft.MessageDirectionType.PUBLISH
+			}
+		},
 		details: /**SCHEMA_DETAILS*/{}/**SCHEMA_DETAILS*/,
 		diff: /**SCHEMA_DIFF*/[
 			{
@@ -59,11 +70,34 @@ define("ContactSectionV2", [], function() {
 			},
 			onActionClick: function(tag){
 				this.showInformationDialog("Section Action Clicked with tag: "+ tag);
+				// this.sandbox.publish(
+				// 	"SectionActionClicked", //Message name
+				// 	null, 
+				// 	["1234567890"] // TAG
+				// );
 			},
 			onMyMainButtonClick: function(){
 				var tag = arguments[3]; //identifies button
-				this.showInformationDialog("Button clicked: "+ tag);
-			}
+				//this.showInformationDialog("Button clicked: "+ tag);
+
+				this.sandbox.publish(
+					"SectionActionClicked", //Message name
+					{arg1: 5, arg2: "arg2"}, 
+					[this.sandbox.id+"_CardModuleV2"] // TAG
+				);
+			},
+
+			/**
+			 * @inheritdoc Terrasoft.core.BaseObject#destroy
+			 * @override
+			 */
+			destroy: function() {
+				if (this.messages) {
+					var messages = this.Terrasoft.keys(this.messages);
+					this.sandbox.unRegisterMessages(messages);
+				}
+				this.callParent(arguments);
+			},
 		}
 	};
 });

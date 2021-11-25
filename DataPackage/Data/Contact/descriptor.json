@@ -1,0 +1,35 @@
+﻿{
+  "Descriptor": {
+    "UId": "8d110613-2b4f-864a-1f75-96b4d0371430",
+    "Name": "Contact",
+    "ModifiedOnUtc": "\/Date(1637772618000)\/",
+    "InstallType": 0,
+    "Schema": {
+      "UId": "16be3651-8fe2-4159-8dd0-a803d4683dd3",
+      "Name": "Contact"
+    },
+    "Columns": [
+      {
+        "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+        "IsForceUpdate": false,
+        "IsKey": true,
+        "ColumnName": "Id",
+        "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+      },
+      {
+        "ColumnUId": "a5cca792-47dd-428a-83fb-5c92bdd97ff8",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Name",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "dbf202ec-c444-479b-bcf4-d8e5b1863201",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Email",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      }
+    ]
+  }
+}

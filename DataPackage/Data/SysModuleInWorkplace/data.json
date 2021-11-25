@@ -1,0 +1,70 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "c6ee50a5-3362-4039-a233-938f3b22b66c"
+        },
+        {
+          "SchemaColumnUId": "bd12ea8e-2bc2-42bf-925a-3ab766cc0b9f",
+          "Value": 19
+        },
+        {
+          "SchemaColumnUId": "0e3d3857-2203-40e4-b1ec-8e972007650e",
+          "Value": "ac371e1c-7c96-4cf6-b252-72b21f79ff4f",
+          "DisplayValue": "DB Workplace"
+        },
+        {
+          "SchemaColumnUId": "991cf5ef-ffb8-49a5-add3-074a595f6c43",
+          "Value": "0f064e80-6570-4ea7-aff3-62292d76c1ec",
+          "DisplayValue": "Chat"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "c30b6f36-b928-4e4a-ade5-5dd065482ae0"
+        },
+        {
+          "SchemaColumnUId": "bd12ea8e-2bc2-42bf-925a-3ab766cc0b9f",
+          "Value": 18
+        },
+        {
+          "SchemaColumnUId": "0e3d3857-2203-40e4-b1ec-8e972007650e",
+          "Value": "ac371e1c-7c96-4cf6-b252-72b21f79ff4f",
+          "DisplayValue": "DB Workplace"
+        },
+        {
+          "SchemaColumnUId": "991cf5ef-ffb8-49a5-add3-074a595f6c43",
+          "Value": "065063c9-8180-e011-afbc-00155d04320c",
+          "DisplayValue": "Contacts"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "a510a126-649c-4295-9a0b-74c1acdf6896"
+        },
+        {
+          "SchemaColumnUId": "bd12ea8e-2bc2-42bf-925a-3ab766cc0b9f",
+          "Value": 17
+        },
+        {
+          "SchemaColumnUId": "0e3d3857-2203-40e4-b1ec-8e972007650e",
+          "Value": "ac371e1c-7c96-4cf6-b252-72b21f79ff4f",
+          "DisplayValue": "DB Workplace"
+        },
+        {
+          "SchemaColumnUId": "991cf5ef-ffb8-49a5-add3-074a595f6c43",
+          "Value": "005063c9-8180-e011-afbc-00155d04320c",
+          "DisplayValue": "Accounts"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "4bba3cc4-0c09-4b39-9485-260226f11a06"
+        },
+        {
+          "SchemaColumnUId": "d5cfaf4a-0900-4ef9-aee8-2ede7f9d97fb",
+          "Value": "ac371e1c-7c96-4cf6-b252-72b21f79ff4f",
+          "DisplayValue": "DB Workplace"
+        },
+        {
+          "SchemaColumnUId": "b96bb4ca-a133-44f1-aa7d-24495d89e278",
+          "Value": "a29a3ba5-4b0d-de11-9a51-005056c00008",
+          "DisplayValue": "All employees"
+        }
+      ]
+    }
+  ]
+}

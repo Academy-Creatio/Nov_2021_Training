@@ -2,7 +2,7 @@
 <Resources Culture="ru-RU">
 	<Group Type="String">
 		<Items>
-			<Item Name="EventsProcessSchema.Caption" Value="Контакт" />
+			<Item Name="EventsProcessSchema.Caption" Value="Бизнес-процесс" />
 		</Items>
 	</Group>
 </Resources>
